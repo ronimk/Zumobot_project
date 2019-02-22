@@ -405,7 +405,7 @@ char maze_map[MAZE_X_SIZE][MAZE_Y_SIZE] =
                           {LIM, UKN, UKN, UKN, UKN, UKN, UKN, UKN, UKN, UKN, UKN, UKN, UKN, LIM, LIM, LIM, '\0'},
                           {LIM, LIM, LIM, LIM, LIM, LIM, LIM, LIM, LIM, LIM, LIM, LIM, LIM, LIM, LIM, LIM, '\0'} };
 /* Even though the actual maze was only 7*14, a 9*17-two dimensional array is used here for two reasons:
-   1) when the robot is on an edge, its x/y-indexes can never be 0 or MAZE_[X/Y]_SIZE. This helps a lot
+   1) when the robot is on an edge, its x/y-indexes can never be 0 or MAZE_[X/Y]_SIZE (- 1). This helps a lot
       when checking for neighbouring nodes. For example: we don't have to adjust the checking logic for maze_map
       boundaries. The correlation of this is that LIM-nodes in the maze_map -array work exactly like WALL-nodes,
       but they are printed as spaces in the final output of the maze, so they don't show in the final print of the maze.
