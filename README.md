@@ -15,7 +15,7 @@ Of course the linked list DS is not used in the program in any way, so this is j
 
 Another problem was that we weren't able to completely familiarize ourselves with the Zumobot during the course, and this shows in some parts of the code.
 
-We also could have structured the code better and separate some of the code in this file into their own library/libraries...
+We also could have structured the code better and separate some of the code in main.c into their own library/libraries...
 
 Still, overall the course taught me quite a bit and I am very satisfied with my simple yet elegant solution for deciding where to drive next along a line (turn, straight or backwards). Also, figuring out how to utilize a 2d array optimally for the maze solver task was really fun and instructional, and I'm very satisfied with the idea I came up with,  using a tiny bit of extra info in the maze array to both avoid complicating the search for the next destination node when the robot is on an edge of the maze and to aid in printing the maze to the MQTT server.
 
