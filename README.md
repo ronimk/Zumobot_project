@@ -21,4 +21,4 @@ Still, overall the course taught me quite a bit and I am very satisfied with my 
 
 The main program contains the final unaltered solutions (except for some cleaning in the comment sections). Thus it has much room for improvement!
 
-To make the code work, insert the proper MQTT info in the zumo_config.h file.
+The project uses MQTT, FreeRTOS and Zumobot libraries... To make the code work, insert the proper MQTT info in the zumo_config.h file.
